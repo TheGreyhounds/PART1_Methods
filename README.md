@@ -22,12 +22,14 @@ type. The function does not have to take arguments, however.
 
 The options for *access-modifier* and the different kinds of encapsulation given by each are best explained 
 by this chart:
+
 | access-modifier | Visible in Class | Visible in Subclass | Visible in Package | Visible Outside of Package |
 |-----------------|------------------|---------------------|--------------------|----------------------------|
 | public          |     ✓            |     ✓               |     ✓              |     ✓                      |
 | (none, default) |     ✓            |     ✓               |     ✓              |                            |
 | protected       |     ✓            |     ✓               |                    |                            |
 | private         |     ✓            |                     |                    |                            |
+
 Depending on the level of access you want for a portion of your code, you'll use a different *access-modifier*.
 
 The simplest method you could write would be
