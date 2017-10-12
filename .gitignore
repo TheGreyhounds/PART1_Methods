@@ -1,0 +1,3 @@
+# Tells git not to add .class files when
+# we run the command git add --all
+*.class
